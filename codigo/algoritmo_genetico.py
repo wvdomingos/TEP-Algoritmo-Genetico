@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-# Programa Python para gerar a frase de destino, começando a partir
-# de frase aleatório usando algoritmo genético
+# Programa em Python para gerar a frase de destino, começando a partir
+# de frase aleatória usando algoritmo genético
 # Referencia: https://www.geeksforgeeks.org/genetic-algorithms/
 
 import random
@@ -70,7 +70,7 @@ class Individual(object):
             else:
                 child_chromosome.append(self.mutated_genes())
 
-        # criar novos Indivíduos (descendentes) usando 
+        # criar novos Indivíduos (descendentes) usando
         # cromossomo gerado para o descendente
         return Individual(child_chromosome)
 
@@ -149,4 +149,4 @@ def main():
 
 
 if __name__ == '__main__':
-     main()
+    main()

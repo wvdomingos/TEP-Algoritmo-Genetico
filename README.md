@@ -4,6 +4,9 @@
 Trabalho de TEP sobre Algoritmo Genético em Python
 ```
 
+## Problema:
+Programa em Python para gerar a frase de destino, começando a partir de frase aleatória usando algoritmo genético.
+
 ## Disciplina:
 Tópicos Espéciais em Programação \
 IFES Campus Cachoeiro de Itapemirim
